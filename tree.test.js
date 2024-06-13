@@ -60,20 +60,6 @@ describe("countEvens", function() {
   });
 });
 
-// describe("countAll", function() {
-//   // it("counts nodes in simple trees", function() {
-//   //   expect(smallTree.countAll()).toEqual(2);
-//   // });
-
-//   it("counts Treenodes in more complicated trees", function() {
-//     expect(largeTree.countAll()).toEqual(8);
-//   });
-
-//   // it("counts empty", function() {
-//   //   expect(emptyTree.countAll()).toEqual(0);
-//   // });
-// });
-
 describe("numGreater", function() {
   it("counts nodes in small trees", function() {
     expect(smallTree.numGreater(0)).toEqual(2);
